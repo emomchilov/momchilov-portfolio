@@ -3,88 +3,81 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Poppins";
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 }
 
 @font-face {
-    font-family: "PoppinsExtraLight";
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-}
-
-
-@font-face {
-    font-family: "PoppinsBold";
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+  font-family: "PoppinsExtraLight";
+  src: url("../public/fonts/Poppins-ExtraLight.ttf");
 }
 
 @font-face {
-    font-family: "Casual";
-    src: url('../public/fonts/Casual-Regular.ttf');
+  font-family: "PoppinsBold";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+}
+
+@font-face {
+  font-family: "Casual";
+  src: url("../public/fonts/Casual-Regular.ttf");
 }
 
 @layer base {
-    h1 {
-        @apply font-casual text-h1;
-    }
+  h1 {
+    @apply font-casual text-h1;
+  }
 
-    h2 {
-        @apply font-casual text-h2;
-    }
+  h2 {
+    @apply font-casual text-h2;
+  }
 
-    h3 {
-        @apply font-casual text-h3;
-    }
+  h3 {
+    @apply font-casual text-h3;
+  }
 
-    h4 {
-        @apply font-casual text-h4;
-    }
+  h4 {
+    @apply font-casual text-h4;
+  }
 
-    h5 {
-        @apply font-casual text-h5;
-    }
+  h5 {
+    @apply font-casual text-h5;
+  }
 
-    h6 {
-        @apply font-casual text-h6;
-    }
+  h6 {
+    @apply font-casual text-h6;
+  }
 
-    p1 {
-        @apply font-poppins text-p1;
-    }
+  p1 {
+    @apply font-poppins text-p1;
+  }
 
-    p2 {
-        @apply font-poppins text-p2;
-    }
-
+  p2 {
+    @apply font-poppins text-p2;
+  }
 }
-
-;
 
 @layer components {
-    .btn {
-        @apply font-poppinsExtraLight py-2 m-2 rounded-lg;
-    }
+  .btn {
+    @apply font-poppinsExtraLight py-2 m-2 rounded-lg;
+  }
 
-    .default {
-        @apply bg-white px-24 text-black;
-    }
+  .default {
+    @apply bg-white py-2 w-full px-36 text-p2 text-grey;
+  }
 
-    .default:hover {
-        @apply bg-blue-lighter text-white duration-500;
-    }
+  .default:hover {
+    @apply bg-blue-lighter text-white duration-500;
+  }
 }
 
-;
-
-@layer utilities {}
-
-;
+@layer utilities {
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    --webkit-overflow-scrolling: touch;
-    --webkit-font-smoothing: antialiased;
+  --webkit-overflow-scrolling: touch;
+  --webkit-font-smoothing: antialiased;
 }
