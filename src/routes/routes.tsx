@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import React from "react";
 import { Tech } from "./Tech";
-import { About } from "../components/About/about";
+import { About } from "../components/About/About";
 
 export function ApplicationRoutes() {
   return (
