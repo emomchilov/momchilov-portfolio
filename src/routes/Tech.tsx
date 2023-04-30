@@ -2,7 +2,6 @@ import PageTitle from "../components/about/PageTitle";
 import { Header } from "../components/header/Header";
 import BlogPreview from "../components/shared/BlogPreview";
 import { Divider } from "../components/shared/Divider";
-import useBreakpoint from "../hooks/useBreakpoint";
 
 export function Tech() {
   return (
