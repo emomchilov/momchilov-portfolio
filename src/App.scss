@@ -58,11 +58,11 @@
 
 @layer components {
   .btn {
-    @apply font-poppinsExtraLight py-2 m-2 rounded-lg;
+    @apply font-poppinsExtraLight py-8 m-2 rounded-lg;
   }
 
   .default {
-    @apply bg-white py-2 w-full px-36 text-p2 text-grey;
+    @apply bg-white py-3 w-full px-36 text-p2 text-grey;
   }
 
   .default:hover {

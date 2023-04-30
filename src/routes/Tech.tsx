@@ -41,7 +41,7 @@ export function Tech() {
                 description="how my team built a Visual Basic application that analyzes distance and price constraints to calculate optimal shipping paths for randomly generated Amazon Prime orders. "
                 icon="AmazonLogo"
                 leftOrientation={true}
-                link="www.google.com"
+                link="https://medium.com/@edenmomchilov/optimized-shipping-costs-for-amazon-prime-orders-2ca7cb817df0"
               ></BlogPreview>
               <Divider></Divider>
               <BlogPreview
