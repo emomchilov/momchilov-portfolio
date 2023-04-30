@@ -1,7 +1,7 @@
-import { Tech } from "./Tech";
-import { About } from "../components/About/About";
 import { Route, Routes } from "react-router-dom";
 import React from "react";
+import { Tech } from "./Tech";
+import { About } from "../components/About/about";
 
 export function ApplicationRoutes() {
   return (

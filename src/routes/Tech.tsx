@@ -1,8 +1,8 @@
-import { Header } from "../components/Header/Header";
 import BlogPreview from "../components/shared/BlogPreview";
 import { Divider } from "../components/shared/Divider";
 import PageTitle from "../components/About/PageTitle";
 import React from "react";
+import { Header } from "../components/Header/Header";
 
 export function Tech() {
   return (

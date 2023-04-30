@@ -1,8 +1,8 @@
 import React from "react";
 import HomePageGraphic from "../../assets/img/home-page-graphic";
-import { Header } from "../Header/Header";
 import { Title } from "../shared/Title";
 import { NavButtons } from "./NavButtons";
+import { Header } from "../Header/Header";
 
 export function About() {
   return (
