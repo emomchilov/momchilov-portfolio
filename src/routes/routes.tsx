@@ -1,7 +1,6 @@
-import { Route, Routes } from "react-router-dom";
-import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { About } from "../Components/About/About";
 import { Tech } from "./Tech";
-import { About } from "../components/About/About";
 
 export function ApplicationRoutes() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import AmazonLogo from "../../assets/img/amazon-logo";
-import BigLittleLogo from "../../assets/img/big-little-logo";
-import BlockchainLogo from "../../assets/img/blockchain-logo";
-import LiveTextLogo from "../../assets/img/live-text-logo";
+import AmazonLogo from "../../Assets/img/amazon-logo";
+import BigLittleLogo from "../../Assets/img/big-little-logo";
+import BlockchainLogo from "../../Assets/img/blockchain-logo";
+import LiveTextLogo from "../../Assets/img/live-text-logo";
 import { BlogTitle } from "./BlogTitle";
 
 interface Props {

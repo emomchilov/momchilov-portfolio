@@ -1,8 +1,7 @@
-import React from "react";
-import HomePageGraphic from "../../assets/img/home-page-graphic";
-import { Title } from "../shared/Title";
-import { NavButtons } from "./NavButtons";
+import HomePageGraphic from "../../Assets/img/home-page-graphic";
 import { Header } from "../Header/Header";
+import { Title } from "../Shared/Title";
+import { NavButtons } from "./NavButtons";
 
 export function About() {
   return (

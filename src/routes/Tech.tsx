@@ -1,8 +1,7 @@
-import BlogPreview from "../components/shared/BlogPreview";
-import { Divider } from "../components/shared/Divider";
-import PageTitle from "../components/About/PageTitle";
-import React from "react";
-import { Header } from "../components/Header/Header";
+import PageTitle from "../Components/About/PageTitle";
+import { Header } from "../Components/Header/Header";
+import BlogPreview from "../Components/Shared/BlogPreview";
+import { Divider } from "../Components/Shared/Divider";
 
 export function Tech() {
   return (
