@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+}
+
+@font-face {
+  font-family: "PoppinsExtraLight";
+  src: url("../public/fonts/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+}
+
+@font-face {
+  font-family: "Casual";
+  src: url("../public/fonts/Casual-Regular.ttf");
+}
+
+@layer base {
+  h1 {
+    @apply font-casual text-h1;
+  }
+
+  h2 {
+    @apply font-casual text-h2;
+  }
+
+  h3 {
+    @apply font-casual text-h3;
+  }
+
+  h4 {
+    @apply font-casual text-h4;
+  }
+
+  h5 {
+    @apply font-casual text-h5;
+  }
+
+  h6 {
+    @apply font-casual text-h6;
+  }
+
+  p1 {
+    @apply font-poppins text-p1;
+  }
+
+  p2 {
+    @apply font-poppins text-p2;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply font-poppinsExtraLight py-8 m-2 rounded-lg;
+  }
+
+  .default {
+    @apply bg-white py-3 w-full px-36 text-p2 text-grey;
+  }
+
+  .default:hover {
+    @apply bg-blue-lighter text-white duration-500;
+  }
+}
+
+@layer utilities {
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --webkit-overflow-scrolling: touch;
+  --webkit-font-smoothing: antialiased;
+}
