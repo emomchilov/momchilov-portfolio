@@ -8,7 +8,7 @@ export function Tech() {
     <>
       <Header></Header>
       <div className="bg-blue-lighter h-full">
-        <div className="grid md:grid-cols-[1fr_3fr_1fr] py-24">
+        <div className="grid md:grid-cols-[1fr_3fr_1fr] md:py-24">
           <div></div>
           <div className="bg-white">
             <div className="bg-grey-light p-6 md:p-24">
