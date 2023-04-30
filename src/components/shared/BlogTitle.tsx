@@ -14,8 +14,6 @@ export const BlogTitle: React.FC<Props> = ({
   subtitle,
   link,
   className = "",
-  textWhite,
-  underline,
 }) => {
   return (
     <div className={className}>
