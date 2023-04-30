@@ -67,6 +67,11 @@ module.exports = {
         "extra-large": "90px",
       },
     },
+    screens: {
+      sm: "640px",
+      md: "940px",
+      lg: "1024px",
+    },
   },
   plugins: [],
 };

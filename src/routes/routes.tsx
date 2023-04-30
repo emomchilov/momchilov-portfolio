@@ -1,12 +1,13 @@
-import { Route, Routes } from "react-router-dom";
-import { About } from "../components/About/About";
 import { Tech } from "./Tech";
+import { About } from "../components/About/About";
+import { Route, Routes } from "react-router-dom";
+import React from "react";
 
 export function ApplicationRoutes() {
-    return (
+  return (
     <Routes>
-        <Route path='/' element={<About />}></Route>
-        <Route path='/tech' element={<Tech />}></Route>
-     </Routes>
-    )
+      <Route path="/" element={<About />}></Route>
+      <Route path="/tech" element={<Tech />}></Route>
+    </Routes>
+  );
 }

@@ -1,9 +1,9 @@
+import React from "react";
 import AmazonLogo from "../../assets/img/amazon-logo";
 import BigLittleLogo from "../../assets/img/big-little-logo";
 import BlockchainLogo from "../../assets/img/blockchain-logo";
 import LiveTextLogo from "../../assets/img/live-text-logo";
 import { BlogTitle } from "./BlogTitle";
-import { Divider } from "./Divider";
 
 interface Props {
   title: string;
@@ -45,7 +45,7 @@ const BlogPreview: React.FC<Props> = ({
 }) => {
   return (
     <>
-      <div className={`${className} grid grid-cols-2 py-24 px-12`}>
+      <div className={`${className} grid md:grid-cols-2 py-24 px-12`}>
         {leftOrientation ? getIconfromName(icon) : <></>}
         <BlogTitle
           title={title}

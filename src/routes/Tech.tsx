@@ -1,17 +1,18 @@
 import { Header } from "../components/Header/Header";
 import BlogPreview from "../components/shared/BlogPreview";
 import { Divider } from "../components/shared/Divider";
-import PageTitle from "../components/shared/PageTitle";
+import PageTitle from "../components/About/PageTitle";
+import React from "react";
 
 export function Tech() {
   return (
     <>
       <Header></Header>
       <div className="bg-blue-lighter h-full">
-        <div className="grid grid-cols-[1fr_3fr_1fr] py-24">
+        <div className="grid md:grid-cols-[1fr_3fr_1fr] py-24">
           <div></div>
           <div className="bg-white">
-            <div className="bg-grey-light p-24">
+            <div className="bg-grey-light p-6 md:p-24">
               <PageTitle
                 title="tech"
                 description="as a tech enthusiast and software engineer by trade, i enjoy the challenge of solving life's problems with code. from college computer science assignments to personal passion projects, i've compiled my work, research, and thoughts over the years in one neat place. welcome to my brain dump of all-things tech! "

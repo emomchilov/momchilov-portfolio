@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../shared/Button";
+import React from "react";
 
 export function NavButtons() {
   return (
