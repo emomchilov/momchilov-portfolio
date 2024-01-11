@@ -28,27 +28,34 @@ export function Tech() {
               ></BlogPreview>
               <Divider></Divider>
               <BlogPreview
+                title="create and share a SwiftUI-generated PDF using ImageRenderer"
+                description="unlock the simplicity of creating and exporting PDFs with SwiftUI. learn how to seamlessly design layouts and share your documents effortlessly."
+                icon="PDFLogo"
+                leftOrientation={false}
+                link="https://medium.com/@edenmomchilov/create-and-share-a-swiftui-generated-pdf-using-imagerenderer-549b6422d078"
+              ></BlogPreview>
+              <BlogPreview
                 title="all about blockchain"
                 description="crypto, bitcoin, NFTs... what's the technology behind all of these buzzwords? with the help of Alex & Don Tapscott's book The Blockchain Revolution, i break down the basics of blockchain technology and distributed ledgers."
                 icon="BlockchainLogo"
-                leftOrientation={false}
+                leftOrientation={true}
                 link="https://medium.com/@edenmomchilov/the-basics-of-blockchain-technology-a1f46fff0d8b"
               ></BlogPreview>
               <Divider></Divider>
               <BlogPreview
-                title="optimized shipping costs for Amazon Prime orders"
-                description="how my team built a Visual Basic application that analyzes distance and price constraints to calculate optimal shipping paths for randomly generated Amazon Prime orders. "
-                icon="AmazonLogo"
-                leftOrientation={true}
-                link="https://medium.com/@edenmomchilov/optimized-shipping-costs-for-amazon-prime-orders-2ca7cb817df0"
+                title="augmented reality app wins technology builder award"
+                description="see the press release for my product team's recognition at the 2023 rvatech/Gala Awards."
+                icon="TeamworkLogo"
+                leftOrientation={false}
+                link="https://www.captechconsulting.com/news/vistar-receives-technology-builder-award"
               ></BlogPreview>
               <Divider></Divider>
               <BlogPreview
-                title="using the greedy algorithm to create big/little pairings"
-                description="could there be a method to the madness of sorority big/little pairings? how i tried to streamline my organization's process of selecting pairs using the greedy algorithm and a Visual Basic application."
-                icon="BigLittleLogo"
-                leftOrientation={false}
-                link="www.google.com"
+                title="optimized shipping costs for Amazon Prime orders"
+                description="how my team built a Visual Basic application that analyzes distance and price constraints to calculate optimal shipping paths for randomly generated Amazon Prime orders."
+                icon="AmazonLogo"
+                leftOrientation={true}
+                link="https://medium.com/@edenmomchilov/optimized-shipping-costs-for-amazon-prime-orders-2ca7cb817df0"
               ></BlogPreview>
             </div>
           </div>
