@@ -5,6 +5,8 @@ import BlockchainLogo from "../../assets/img/blockchain-logo";
 import LiveTextLogo from "../../assets/img/live-text-logo";
 import { BlogTitle } from "./BlogTitle";
 import useBreakpoint from "../../hooks/useBreakpoint";
+import PDFLogo from "../../assets/img/pdf-logo";
+import TeamworkLogo from "../../assets/img/teamwork-logo";
 
 interface Props {
   title: string;
@@ -66,13 +68,33 @@ const BlogPreview: React.FC<Props> = ({
             }`}
           />
         );
+      case "PDFLogo":
+        return (
+          <PDFLogo
+            className={`${
+              screen === "isDesktop"
+                ? "place-self-center self-center scale-150"
+                : "place-self-center mb-24 scale-150"
+            }`}
+          />
+        );
+      case "TeamworkLogo":
+        return (
+          <TeamworkLogo
+            className={`${
+              screen === "isDesktop"
+                ? "place-self-center self-center scale-150"
+                : "place-self-center mb-24 scale-150"
+            }`}
+          />
+        );
       default:
         return <AmazonLogo className="" />;
     }
   }
   return (
     <>
-      <div className={`${className} grid md:grid-cols-2 pt-12 md:py-24 px-12`}>
+      <div className={`${className} grid md:grid-cols-2 pt-12 md:py-24 px-16`}>
         {leftOrientation || screen === "isMobile" ? (
           getIconfromName(icon)
         ) : (
